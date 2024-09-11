@@ -1,0 +1,17 @@
+
+.colored-line {
+    position: relative;
+    padding-left: 70px; /* Space for the line */
+    margin-bottom: 1px; /* Space below the text */
+}
+.colored-line::before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 40%;
+    width: 50px; /* Width of the line */
+    height: 4px; /* Thickness of the line */
+    background-color: #a7c23f; /* Color of the line */
+    transform: translateY(-50%);
+    align-items: center;
+}
